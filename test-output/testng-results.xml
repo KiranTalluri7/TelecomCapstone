@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T15:29:46 IST" name="Default suite" finished-at="2024-12-19T15:30:02 IST" duration-ms="16118">
+    <groups>
+    </groups>
+    <test started-at="2024-12-19T15:29:46 IST" name="Default test" finished-at="2024-12-19T15:30:02 IST" duration-ms="16118">
+      <class name="com.Telecom.TelecomAPIs">
+        <test-method signature="AddNewUser()[pri:1, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:46 IST" name="AddNewUser" finished-at="2024-12-19T15:29:50 IST" duration-ms="3841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+        <test-method signature="GetUserProfile()[pri:2, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:50 IST" name="GetUserProfile" finished-at="2024-12-19T15:29:52 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserProfile -->
+        <test-method signature="UpdateUser()[pri:3, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:52 IST" name="UpdateUser" finished-at="2024-12-19T15:29:53 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="LoginUser()[pri:4, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:53 IST" name="LoginUser" finished-at="2024-12-19T15:29:54 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method signature="AddContact()[pri:5, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:54 IST" name="AddContact" finished-at="2024-12-19T15:29:56 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method signature="GetContactList()[pri:6, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:56 IST" name="GetContactList" finished-at="2024-12-19T15:29:57 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContactList -->
+        <test-method signature="GetContact()[pri:7, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:57 IST" name="GetContact" finished-at="2024-12-19T15:29:58 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContact -->
+        <test-method signature="UpdateContact()[pri:8, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:29:58 IST" name="UpdateContact" finished-at="2024-12-19T15:30:00 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser, com.Telecom.TelecomAPIs.AddContact" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact -->
+        <test-method signature="UpdateContact2()[pri:9, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:30:00 IST" name="UpdateContact2" finished-at="2024-12-19T15:30:01 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser, com.Telecom.TelecomAPIs.AddContact" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact2 -->
+        <test-method signature="LogOut()[pri:10, instance:com.Telecom.TelecomAPIs@4f83df68]" started-at="2024-12-19T15:30:01 IST" name="LogOut" finished-at="2024-12-19T15:30:02 IST" depends-on-methods="com.Telecom.TelecomAPIs.AddNewUser" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- com.Telecom.TelecomAPIs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
